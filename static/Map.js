@@ -1,0 +1,1 @@
+function myFunction(selector) { popup = document.getElementById("myPopup" + selector); popup.classList.toggle("show"); }
