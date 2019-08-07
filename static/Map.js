@@ -1,1 +1,4 @@
-function myFunction(selector) { popup = document.getElementById("myPopup" + selector); popup.classList.toggle("show"); }
+function myFunction(selector) {
+    popup = document.getElementById("Svg_Pop" + selector); 
+    popup.classList.toggle("show");
+}
