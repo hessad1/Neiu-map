@@ -15,6 +15,15 @@ class MainPage(webapp2.RequestHandler):
         welcome_template = the_jinja_env.get_template('Documents/Map.html')
         self.response.headers['Content-Type'] = 'text/html'
         self.response.write(welcome_template.render()) #the response
-        
+
+class AboutUsPage(webapp2.RequestHandler):
+    def get(self):
+        welcome_template = the_jinja_env.get_template('Documents/About_Us.html')
+        self.response.headers['Content-Type'] = 'text/html'
+        self.response.write(welcome_template.render()) #the response
+
 # the app configuration section
-app = webapp2.WSGIApplication([('/',MainPage),], debug=True)
+app = webapp2.WSGIApplication([
+    ('/',MainPage),
+    ('/about',AboutUsPage),
+    ], debug=True)
