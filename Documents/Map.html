@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto+Slab&display=swap" rel="stylesheet">
 	<link href="static/Map.css" rel="stylesheet" type="text/css">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<title>Neiu Map</title>
 </head>
 <body style="text-align:center">
-    <script src="Map.js"></script>
 	<div class="sidenav">
         <h1 class="Key">Key</h1>
-        <a id="path4532">Alumni Center (1)</a> 
-        <a id="path4542">Bernard Brommel Hall (2)</a> 
-        <a id="path4544">Building B (3)</a>  
-        <a id="path4548">Building D (4)</a> 
-        <a id="path4554">Building E (5)</a> 
-        <a id="path4556">Building F (6)</a> 
-        <a id="path4562">Building H (7)</a> 
-        <a id="path4574">Building J (8)</a>
-        <a id="path4630">Carruthers Center (9)</a>
-        <a id="path4578">Child Care Center (10)</a> 
-        <a id="path4550">College of Buissness (11)</a>
-        <a id="path817">El Centro (12)</a>
-        <a id="path4576">Ground Maintenance (13)</a>  
-        <a id="path4546">Building C (14)</a> 
-        <a id="path4552">Lech Walesa Hall (15)</a>
-        <a id="path4568">Parking Garage (16)</a> 
-        <a id="path4580">PE Complex (17)</a> 
-        <a id="path4564">Library (18)</a> 
-        <a id="path4560">Fine Arts Center (19)</a> 
-        <a id="path4558">Student Union (20)</a> 
-        <a id="path4572">The Nest (21)</a> 
+        <a onClick="MakeBlue('ath4532')" id="ath4532">Alumni Center (1)</a> 
+        <a onClick="MakeBlue('ath4542')"  id="ath4542">Bernard Brommel Hall (2)</a>
+        <a onClick="MakeBlue('ath4544')"  id="ath4544">Building B (3)</a>  
+        <a onClick="MakeBlue('ath4548')"  id="ath4548">Building D (4)</a>
+        <a onClick="MakeBlue('ath4554')"  id="ath4554">Building E (5)</a>
+        <a onClick="MakeBlue('ath4556')"  id="ath4556">Building F (6)</a>
+        <a onClick="MakeBlue('ath4562')"  id="ath4562">Building H (7)</a>
+        <a onClick="MakeBlue('ath4574')"  id="ath4574">Building J (8)</a>
+        <a onClick="MakeBlue('ath4630')"  id="ath4630">Carruthers Center (9)</a>
+        <a onClick="MakeBlue('ath4578')"  id="ath4578">Child Care Center (10)</a> 
+        <a onClick="MakeBlue('ath4550')"  id="ath4550">College of Buissness (11)</a>
+        <a onClick="MakeBlue('ath817')"  id="ath817">El Centro (12)</a>
+        <a onClick="MakeBlue('ath4576')"  id="ath4576">Ground Maintenance (13)</a>  
+        <a onClick="MakeBlue('ath4546')"  id="ath4546">Building C (14)</a> 
+        <a onClick="MakeBlue('ath4552')"  id="ath4552">Lech Walesa Hall (15)</a>
+        <a onClick="MakeBlue('ath4568')"  id="ath4568">Parking Garage (16)</a> 
+        <a onClick="MakeBlue('ath4580')"  id="ath4580">PE Complex (17)</a> 
+        <a onClick="MakeBlue('ath4564')"  id="ath4564">Library (18)</a> 
+        <a onClick="MakeBlue('ath4560')"  id="ath4560">Fine Arts Center (19)</a> 
+        <a onClick="MakeBlue('ath4558')"  id="ath4558">Student Union (20)</a> 
+        <a onClick="MakeBlue('ath4572')"  id="ath4572">The Nest (21)</a> 
         <a>About Us!</a>
 	</div>
 	<div class="main">
 		<h3 id="firstH1">NEIU Campus Map</h3>
 	</div>
     
-    <object type="image/svg+xml" data="static/campus_map_color_2017.svg" height="700px" id="MAP" width="1000px"></object>
+    <object class="svgg" type="image/svg+xml" data="static/campus_map_color_2017.svg" height="700px" id="MAP" width="1000px"></object>
     
-    <object type="image/svg+xml" id="Elcentro" data="static/EL-centro.svg" width="300px"></object>
+    <object class="svgg" type="image/svg+xml" id="Elcentro" data="static/EL-centro.svg" width="300px"></object>
     
-    <object type="image/svg+xml" height="200px" id="InnerCity" data="static/InnerCity.svg" width="200px"></object> 
+    <object class="svgg" type="image/svg+xml" height="200px" id="InnerCity" data="static/InnerCity.svg" width="200px"></object>
+    
+    <script src="static/Map.js"></script>
 </body>
 </html>
