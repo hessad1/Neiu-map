@@ -1,0 +1,46 @@
+.name {
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.quote {
+    font-size:20px;
+    font-style:italic;
+    font-family: 'EB Garaond', serif;
+}
+.writeup {
+    text-indent: 35px;
+    font-size:17px;
+    font-family: 'Gentium Book Basic', serif;
+    padding-bottom: 10px;
+    border-bottom: double;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-color: #D5A713;
+    border-bottom-width: 7px;
+}
+
+.facephoto {
+    margin: auto;
+    display:block
+}
+
+.quoteperson {
+     font-family: 'Lora', serif;
+    letter-spacing: 5px:
+}
+
+#meetourteam {
+    text-align: center;
+    font-size: 50px;
+}
+
+#intro {
+    font-size: 25px;
+    font-family: 'IBM Plex Serif';
+}
+.row { 
+display: grid; 
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr; } 
