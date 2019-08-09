@@ -61,15 +61,15 @@ letter-spacing: 4px;
 	}
 }
 #MAP {
-	margin-left: 280px;
+/*	margin-top:120px;*/
 }
 #Elcentro {
 	position: absolute;
-	left: 1000px;
-	top: 530px;
+	left: 1200px;
+	top: 550px;
 }
 #InnerCity {
 	position: absolute;
-	left: 1200px;
+	left: 1500px;
 	top: 300px;
 }
